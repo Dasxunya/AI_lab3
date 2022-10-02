@@ -7,7 +7,7 @@ headlines = []
 
 def main():
     global headlines, data_structure
-    filename = r'C:\Users\Dasxunya\Desktop\ITMO\3\AI\Laba_3\data\DATA.csv'
+    filename = r'C:\Users\Dasxunya\Desktop\ITMO\3\AI\AI_lab3\data\DATA.csv'
     data_csv = pd.read_csv(filename)
     for line in data_csv:
         headlines = line.split(';')[1:]
