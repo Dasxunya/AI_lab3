@@ -33,29 +33,30 @@ def main():
                 else:
                     fail += 1
     print(data_structure, '\n', succes, fail)
-    entropy = info_T(succes, fail)
     compare_info_x_T(randoms)
 
 
 def info_T(s, f):
     global entropy
-    sum = s + f
+    summ = s + f
     if s == 0:
-        entropy = -((f / sum) * math.log2(f / sum))
+        entropy = -((f / summ) * math.log2(f / summ))
     elif f == 0:
-        entropy = -((s / sum) * math.log2(s / sum))
+        entropy = -((s / summ) * math.log2(s / summ))
     else:
-        entropy = -((s / sum) * math.log2(s / sum) + (f / sum) * math.log2(f / sum))
+        entropy = -((s / summ) * math.log2(s / summ) + (f / summ) * math.log2(f / summ))
     return entropy
 
 
 def compare_info_x_T(attributes):
     for i in attributes:
         info_x_T(i)
+# TODO:использовать эту функцию для сравнения прироста информации
 
 
 def info_x_T(attribute):
-    # {характеристика1: [(count, success-count, fails-count)], характеристика2: [(count, success-count, fails-count),...}
+    # {характеристика1: [(count, success-count, fails-count)], характеристика2:
+    # [(count, success-count, fails-count), ...}
     global info_x
     fields = {}
     print(attribute + 1)
