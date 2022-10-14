@@ -49,7 +49,7 @@ def compare_info_x_T(attributes):
 
 
 def info_x_T(attribute):
-    # [(характеристика1, count, success-count, fails-count), (характеристика2, count, success-count, fails-count),...]
+    # {характеристика1: [(count, success-count, fails-count)], характеристика2: [(count, success-count, fails-count),...}
     fields = {}
     print(attribute + 1)
     for j in data_structure:
