@@ -38,8 +38,14 @@ def main():
 
 
 def info_T(s, f):
+    global entropy
     sum = s + f
-    entropy = -((s / sum) * math.log2(s / sum) + (f / sum) * math.log2(f / sum))
+    if s == 0:
+        entropy = -((f / sum) * math.log2(f / sum))
+    elif f == 0:
+        entropy = -((s / sum) * math.log2(s / sum))
+    else:
+        entropy = -((s / sum) * math.log2(s / sum) + (f / sum) * math.log2(f / sum))
     return entropy
 
 
@@ -50,6 +56,7 @@ def compare_info_x_T(attributes):
 
 def info_x_T(attribute):
     # {характеристика1: [(count, success-count, fails-count)], характеристика2: [(count, success-count, fails-count),...}
+    global info_x
     fields = {}
     print(attribute + 1)
     for j in data_structure:
@@ -57,6 +64,12 @@ def info_x_T(attribute):
             fields.setdefault(int(data_structure[j][attribute][1]), [(0, 0, 0)])
 
     fields_placeholder(attribute, fields)
+    print(fields)
+    info_x = 0
+    for i in fields:
+        info_x = info_x + (fields[i][0][0] / len(data_structure)) * info_T(fields[i][0][1], fields[i][0][2])
+    print(info_x)
+    return info_x
 
 
 def fields_placeholder(a, f):
@@ -71,7 +84,6 @@ def fields_placeholder(a, f):
                 k = k + 1
                 k_f = k_f + 1
                 f[i][0] = (k, k_s, k_f)
-    print(f)
 
 
 main()
