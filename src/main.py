@@ -33,7 +33,8 @@ def main():
                 else:
                     fail += 1
     print(data_structure, '\n', succes, fail)
-    compare_info_x_T(randoms)
+    node = compare_info_x_T(randoms)
+    print(node)
 
 
 def info_T(s, f):
@@ -49,9 +50,15 @@ def info_T(s, f):
 
 
 def compare_info_x_T(attributes):
+    """Выбор атрибута с наилучшим информационным приростом"""
+    global opt_a
+    max_entropy = 0
     for i in attributes:
-        info_x_T(i)
-# TODO:использовать эту функцию для сравнения прироста информации
+        compare = info_x_T(i)
+        if compare[0] > max_entropy:
+            max_entropy = compare[0]
+            opt_a = compare[1]
+    return opt_a + 1
 
 
 def info_x_T(attribute):
@@ -65,12 +72,11 @@ def info_x_T(attribute):
             fields.setdefault(int(data_structure[j][attribute][1]), [(0, 0, 0)])
 
     fields_placeholder(attribute, fields)
-    print(fields)
     info_x = 0
     for i in fields:
         info_x = info_x + (fields[i][0][0] / len(data_structure)) * info_T(fields[i][0][1], fields[i][0][2])
     print(info_x)
-    return info_x
+    return info_x, attribute
 
 
 def fields_placeholder(a, f):
@@ -85,6 +91,10 @@ def fields_placeholder(a, f):
                 k = k + 1
                 k_f = k_f + 1
                 f[i][0] = (k, k_s, k_f)
+
+
+def build_tree():
+    i = 0
 
 
 main()
