@@ -41,7 +41,6 @@ def main():
     print(splitted_d.get('1'))
     info_x_T(splitted_d.get('1'), 8)
 
-
     node = compare_gain(data_structure, randoms)
     randoms.remove(node)
     build_tree(data_structure, randoms, node)
@@ -52,11 +51,12 @@ def info_T(s, f):
     global entropy
     summ = s + f
     if s == 0:
-        entropy = -((f / summ) * math.log2(f / summ))
+        entropy = -((f / math.fabs(summ)) * math.log2(f / math.fabs(summ)))
     elif f == 0:
-        entropy = -((s / summ) * math.log2(s / summ))
+        entropy = -((s / math.fabs(summ)) * math.log2(s / math.fabs(summ)))
     else:
-        entropy = -((s / summ) * math.log2(s / summ) + (f / summ) * math.log2(f / summ))
+        entropy = -((s / math.fabs(summ)) * math.log2(s / math.fabs(summ)) + (f / math.fabs(summ)) * math.log2(
+            f / math.fabs(summ)))
     return entropy
 
 
@@ -135,10 +135,11 @@ def info_x_T(splitted_d, attr):
     for j in splitted_d:
         if splitted_d[j][attr][1] not in fields:
             fields.setdefault(int(splitted_d[j][attr][1]), [(0, 0, 0)])
-    fields_placeholder(attr, fields)
+    fields_placeholder(splitted_d, attr, fields)
     info_x = 0
     for i in fields:
-        info_x = info_x + (fields[i][0][0] / len(splitted_d)) * info_T(fields[i][0][1], fields[i][0][2])
+        info_x = info_x + (math.fabs(fields[i][0][0]) / math.fabs(len(splitted_d))) * info_T(fields[i][0][1],
+                                                                                             fields[i][0][2])
     print(f'для атрибута на позиции {attr} значения {fields} энтропия =', info_x)
     return info_x, attr, fields
 
@@ -146,22 +147,22 @@ def info_x_T(splitted_d, attr):
 def split_info_x(d, attr, attr_to_values):
     split = 0
     for i in attr_to_values[attr]:
-        var = attr_to_values[attr][i][0][0] / len(d)
+        var = math.fabs(attr_to_values[attr][i][0][0]) / math.fabs(len(d))
         split = split - (var * math.log2(var))
     print(split)
     return split
 
 
-def fields_placeholder(a, f):
+def fields_placeholder(s_d, a, f):
     """Подсчет количества успехов и неудач среди значения атрибута"""
     for i in f:
         k, k_s, k_f = 0, 0, 0
-        for r in data_structure:
-            if int(data_structure[r][a][1]) == i and data_structure[r][32][1] == 'S':
+        for r in s_d:
+            if int(s_d[r][a][1]) == i and data_structure[r][32][1] == 'S':
                 k = k + 1
                 k_s = k_s + 1
                 f[i][0] = (k, k_s, k_f)
-            if int(data_structure[r][a][1]) == i and data_structure[r][32][1] == 'F':
+            if int(s_d[r][a][1]) == i and s_d[r][32][1] == 'F':
                 k = k + 1
                 k_f = k_f + 1
                 f[i][0] = (k, k_s, k_f)
@@ -169,6 +170,7 @@ def fields_placeholder(a, f):
 
 
 def build_tree(d, attrs, node, order=0):
+    #
     global best_node
     print(attrs)
     best_node = node
@@ -176,10 +178,13 @@ def build_tree(d, attrs, node, order=0):
     print(v, best_node)
     local_attrs = attrs
 
-    for i in range(len(v[best_node])):
-        print(i)
-    # best_node = compare_gain(d, local_attrs)
+    if len(local_attrs) == 1:
+        return
 
+    for i in v[best_node]:
+        print(best_node, 'level =', order + 1)
+        best_node = compare_gain(d, local_attrs)
+        build_tree(s_b_v[i], local_attrs, best_node, order + 1)
 
 
 main()
