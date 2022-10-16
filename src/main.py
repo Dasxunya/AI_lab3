@@ -41,7 +41,10 @@ def main():
     print(splitted_d.get('1'))
     info_x_T(splitted_d.get('1'), 8)
 
-    build_tree(data_structure, randoms)
+
+    node = compare_gain(data_structure, randoms)
+    randoms.remove(node)
+    build_tree(data_structure, randoms, node)
     # позиция атрибута 8 = 9 атрибут
 
 
@@ -74,7 +77,7 @@ def split_by_attribute_values(d, b_n):
                 temp.setdefault(j, d[j])
         splitted_by_values[i] = temp
 
-    print(values, splitted_by_values)
+    print(values)
     return splitted_by_values, values
 
 
@@ -88,10 +91,9 @@ def prepare_data_b_n(structure, b_n):
     return fields
 
 
-def compare_info_x_T(d, attributes):
+def compare_gain(d, attributes):
     """Выбор атрибута с наилучшим информационным приростом"""
-
-    global opt_a
+    global opt_a, max_g
     max_entropy = 0
     counter = 0
     fields_list = [0 for j in range(len(attributes))]
@@ -99,10 +101,30 @@ def compare_info_x_T(d, attributes):
         compare = info_x_T(d, i)
         fields_list[counter] = compare[2]
         counter += 1
-        if compare[0] > max_entropy:
-            max_entropy = compare[0]
-            opt_a = compare[1]
+    attr_to_values = dict(zip(attributes, fields_list))
+    print(attr_to_values, '\n', fields_list)
 
+    succes = 0
+    fail = 0
+    for i in d:
+        s = d.get(i)
+        for j in range(0, 33):
+            if j == 32:
+                if s[j][1] == 'S':
+                    succes += 1
+                else:
+                    fail += 1
+
+    print(succes, fail)
+    max_g = 0
+    for i in attributes:
+        infos = info_x_T(d, i)[0]
+        splits = split_info_x(d, i, attr_to_values)
+        gain = (info_T(succes, fail) - infos) / splits
+        if gain > max_g:
+            max_g = gain
+            opt_a = i
+            print(infos, splits, gain)
     return opt_a
 
 
@@ -121,6 +143,15 @@ def info_x_T(splitted_d, attr):
     return info_x, attr, fields
 
 
+def split_info_x(d, attr, attr_to_values):
+    split = 0
+    for i in attr_to_values[attr]:
+        var = attr_to_values[attr][i][0][0] / len(d)
+        split = split - (var * math.log2(var))
+    print(split)
+    return split
+
+
 def fields_placeholder(a, f):
     """Подсчет количества успехов и неудач среди значения атрибута"""
     for i in f:
@@ -137,17 +168,18 @@ def fields_placeholder(a, f):
     return f
 
 
-def build_tree(d, attrs, node=None, order=0):
-    # {узел1: {ребро1: дочерний_узел1, ребро2: дочерний_узел2}, узел2:...}
-    # while node != 'S' or node != 'F':
-        if order == 0:
-            best_node = compare_info_x_T(d, attrs)  # получили оптимальную вершину
-            s_b_v, v = split_by_attribute_values(d, best_node)  # получили информацию о значениях вершины и разбили мн-во на подм-ва(s_b_v)
-            print(v[best_node], '\n', best_node)
-            for i in v[best_node]:
-                print(i)
-        # else:
-        #
+def build_tree(d, attrs, node, order=0):
+    global best_node
+    print(attrs)
+    best_node = node
+    s_b_v, v = split_by_attribute_values(d, best_node)
+    print(v, best_node)
+    local_attrs = attrs
+
+    for i in range(len(v[best_node])):
+        print(i)
+    # best_node = compare_gain(d, local_attrs)
+
 
 
 main()
