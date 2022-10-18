@@ -1,0 +1,890 @@
+{
+    "a_name": "",
+    "a_value": "",
+    "edges": [
+        {
+            "a_name": 28,
+            "a_value": 1,
+            "edges": [
+                {
+                    "a_name": 20,
+                    "a_value": 1,
+                    "edges": [
+                        {
+                            "a_name": 1,
+                            "a_value": 1,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 4,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 5,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 2,
+                                    "edges": [
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 4,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 5,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 3,
+                                    "edges": [
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 4,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 5,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 4,
+                                    "edges": [
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 1,
+                            "a_value": 2,
+                            "edges": [
+                                {
+                                    "a_name": 13,
+                                    "a_value": 1,
+                                    "edges": [
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 4,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 13,
+                                    "a_value": 2,
+                                    "edges": [
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 4,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 13,
+                                    "a_value": 3,
+                                    "edges": [
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 4,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 6,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 13,
+                                    "a_value": 4,
+                                    "edges": [],
+                                    "result": "F"
+                                },
+                                {
+                                    "a_name": 13,
+                                    "a_value": 5,
+                                    "edges": [
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 1,
+                            "a_value": 3,
+                            "edges": [],
+                            "result": "F"
+                        }
+                    ],
+                    "result": ""
+                },
+                {
+                    "a_name": 20,
+                    "a_value": 2,
+                    "edges": [
+                        {
+                            "a_name": 13,
+                            "a_value": 1,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 3,
+                                    "edges": [
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 4,
+                                    "edges": [
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 2,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [],
+                                    "result": "F"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 2,
+                                    "edges": [],
+                                    "result": "S"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 3,
+                                    "edges": [],
+                                    "result": "F"
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 3,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [],
+                                    "result": "S"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 3,
+                                    "edges": [],
+                                    "result": "F"
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 4,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [],
+                                    "result": "S"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 3,
+                                    "edges": [],
+                                    "result": "F"
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 5,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                }
+                            ],
+                            "result": ""
+                        }
+                    ],
+                    "result": ""
+                }
+            ],
+            "result": ""
+        },
+        {
+            "a_name": 28,
+            "a_value": 2,
+            "edges": [
+                {
+                    "a_name": 20,
+                    "a_value": 1,
+                    "edges": [
+                        {
+                            "a_name": 1,
+                            "a_value": 1,
+                            "edges": [
+                                {
+                                    "a_name": 13,
+                                    "a_value": 1,
+                                    "edges": [],
+                                    "result": "S"
+                                },
+                                {
+                                    "a_name": 13,
+                                    "a_value": 2,
+                                    "edges": [
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 13,
+                                    "a_value": 3,
+                                    "edges": [
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 13,
+                                    "a_value": 4,
+                                    "edges": [],
+                                    "result": "S"
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 1,
+                            "a_value": 2,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 4,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 5,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 2,
+                                    "edges": [
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 5,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 3,
+                                    "edges": [
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 4,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 4,
+                                    "edges": [
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 4,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 13,
+                                            "a_value": 5,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 1,
+                            "a_value": 3,
+                            "edges": [],
+                            "result": "S"
+                        }
+                    ],
+                    "result": ""
+                },
+                {
+                    "a_name": 20,
+                    "a_value": 2,
+                    "edges": [
+                        {
+                            "a_name": 13,
+                            "a_value": 1,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 2,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [],
+                                    "result": "F"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 2,
+                                    "edges": [],
+                                    "result": "F"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 6,
+                                    "edges": [],
+                                    "result": "S"
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 3,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 2,
+                                    "edges": [],
+                                    "result": "S"
+                                }
+                            ],
+                            "result": ""
+                        }
+                    ],
+                    "result": ""
+                }
+            ],
+            "result": ""
+        },
+        {
+            "a_name": 28,
+            "a_value": 3,
+            "edges": [
+                {
+                    "a_name": 20,
+                    "a_value": 1,
+                    "edges": [
+                        {
+                            "a_name": 13,
+                            "a_value": 1,
+                            "edges": [
+                                {
+                                    "a_name": 1,
+                                    "a_value": 1,
+                                    "edges": [
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 4,
+                                            "edges": [],
+                                            "result": "S"
+                                        },
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 5,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 1,
+                                    "a_value": 2,
+                                    "edges": [
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 11,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 2,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [],
+                                    "result": "F"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 2,
+                                    "edges": [],
+                                    "result": "F"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 4,
+                                    "edges": [],
+                                    "result": "S"
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 3,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [],
+                                    "result": "F"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 2,
+                                    "edges": [],
+                                    "result": "S"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 3,
+                                    "edges": [],
+                                    "result": "S"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 5,
+                                    "edges": [],
+                                    "result": "S"
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 4,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [],
+                                    "result": "S"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 2,
+                                    "edges": [
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "F"
+                                        },
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 3,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 3,
+                                    "edges": [
+                                        {
+                                            "a_name": 1,
+                                            "a_value": 1,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 5,
+                            "edges": [],
+                            "result": "S"
+                        }
+                    ],
+                    "result": ""
+                },
+                {
+                    "a_name": 20,
+                    "a_value": 2,
+                    "edges": [
+                        {
+                            "a_name": 13,
+                            "a_value": 1,
+                            "edges": [
+                                {
+                                    "a_name": 11,
+                                    "a_value": 1,
+                                    "edges": [],
+                                    "result": "S"
+                                },
+                                {
+                                    "a_name": 11,
+                                    "a_value": 3,
+                                    "edges": [],
+                                    "result": "F"
+                                }
+                            ],
+                            "result": ""
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 2,
+                            "edges": [],
+                            "result": "F"
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 3,
+                            "edges": [],
+                            "result": "F"
+                        },
+                        {
+                            "a_name": 13,
+                            "a_value": 5,
+                            "edges": [],
+                            "result": "F"
+                        }
+                    ],
+                    "result": ""
+                }
+            ],
+            "result": ""
+        }
+    ],
+    "result": ""
+}
