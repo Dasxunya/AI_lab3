@@ -37,13 +37,7 @@ def main():
     data = data_structure
     print(data)
 
-    splitted_d, values = split_by_attribute_values(data_structure, 8)
-    print(splitted_d.get('1'))
-    info_x_T(splitted_d.get('1'), 8)
-
-    node = compare_gain(data_structure, randoms)
-    randoms.remove(node)
-    build_tree(data_structure, randoms, node)
+    build_tree(data_structure, randoms, 'начало')
     # позиция атрибута 8 = 9 атрибут
 
 
@@ -108,19 +102,20 @@ def compare_gain(d, attributes):
     fail = 0
     for i in d:
         s = d.get(i)
-        for j in range(0, 33):
-            if j == 32:
-                if s[j][1] == 'S':
-                    succes += 1
-                else:
-                    fail += 1
+        if s[-1][1] == 'S':
+            succes += 1
+        else:
+            fail += 1
 
     print(succes, fail)
     max_g = 0
     for i in attributes:
         infos = info_x_T(d, i)[0]
         splits = split_info_x(d, i, attr_to_values)
-        gain = (info_T(succes, fail) - infos) / splits
+        try:
+            gain = (info_T(succes, fail) - infos) / splits
+        except ZeroDivisionError:
+            gain = 0
         if gain > max_g:
             max_g = gain
             opt_a = i
@@ -158,33 +153,43 @@ def fields_placeholder(s_d, a, f):
     for i in f:
         k, k_s, k_f = 0, 0, 0
         for r in s_d:
-            if int(s_d[r][a][1]) == i and data_structure[r][32][1] == 'S':
+            if int(s_d[r][a][1]) == i and s_d[r][-1][1] == 'S':
                 k = k + 1
                 k_s = k_s + 1
                 f[i][0] = (k, k_s, k_f)
-            if int(s_d[r][a][1]) == i and s_d[r][32][1] == 'F':
+            if int(s_d[r][a][1]) == i and s_d[r][-1][1] == 'F':
                 k = k + 1
                 k_f = k_f + 1
                 f[i][0] = (k, k_s, k_f)
     return f
 
 
-def build_tree(d, attrs, node, order=0):
-    #
-    global best_node
-    print(attrs)
-    best_node = node
+def build_tree(d, attrs, node):
+    print('Родитель -->', node)
+    best_node = compare_gain(d, attrs)
     s_b_v, v = split_by_attribute_values(d, best_node)
-    print(v, best_node)
-    local_attrs = attrs
-
-    if len(local_attrs) == 1:
-        return
-
-    for i in v[best_node]:
-        print(best_node, 'level =', order + 1)
-        best_node = compare_gain(d, local_attrs)
-        build_tree(s_b_v[i], local_attrs, best_node, order + 1)
+    print(attrs)
+    for i in s_b_v:
+        count_f = 0
+        count_s = 0
+        for j in s_b_v[i]:
+            if len(s_b_v[i][j]) == 1:
+                return
+            print(s_b_v[i])
+            if s_b_v[i][j][-1][1] == 'F':
+                count_f += 1
+            else:
+                count_s += 1
+        if count_s == len(s_b_v[i]) or count_f == len(s_b_v[i]):
+            # создание узла с именем данного атрибута
+            print('я нашелся', best_node)
+            return
+        else:
+            for j in s_b_v[i]:
+                s_b_v[i][j].pop(best_node)
+                # создаем узел с этим атрибутом
+                print(s_b_v[i])
+                build_tree(s_b_v[i], attrs, best_node)
 
 
 main()
