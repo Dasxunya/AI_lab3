@@ -3,122 +3,48 @@
     "a_value": "",
     "edges": [
         {
-            "a_name": 28,
+            "a_name": 24,
             "a_value": 1,
             "edges": [
                 {
-                    "a_name": 20,
+                    "a_name": 21,
                     "a_value": 1,
                     "edges": [
                         {
-                            "a_name": 1,
+                            "a_name": 9,
                             "a_value": 1,
                             "edges": [
                                 {
-                                    "a_name": 11,
+                                    "a_name": 6,
                                     "a_value": 1,
                                     "edges": [
                                         {
-                                            "a_name": 13,
-                                            "a_value": 4,
+                                            "a_name": 5,
+                                            "a_value": 1,
                                             "edges": [],
-                                            "result": "F"
+                                            "result": "S"
                                         },
                                         {
-                                            "a_name": 13,
-                                            "a_value": 5,
+                                            "a_name": 5,
+                                            "a_value": 2,
                                             "edges": [],
-                                            "result": "F"
+                                            "result": "S"
                                         }
                                     ],
                                     "result": ""
                                 },
                                 {
-                                    "a_name": 11,
+                                    "a_name": 6,
                                     "a_value": 2,
                                     "edges": [
                                         {
-                                            "a_name": 13,
+                                            "a_name": 5,
                                             "a_value": 1,
                                             "edges": [],
                                             "result": "S"
                                         },
                                         {
-                                            "a_name": 13,
-                                            "a_value": 2,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 3,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 4,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 5,
-                                            "edges": [],
-                                            "result": "S"
-                                        }
-                                    ],
-                                    "result": ""
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 3,
-                                    "edges": [
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 2,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 3,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 4,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 5,
-                                            "edges": [],
-                                            "result": "S"
-                                        }
-                                    ],
-                                    "result": ""
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 4,
-                                    "edges": [
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
+                                            "a_name": 5,
                                             "a_value": 2,
                                             "edges": [],
                                             "result": "S"
@@ -130,22 +56,22 @@
                             "result": ""
                         },
                         {
-                            "a_name": 1,
+                            "a_name": 9,
                             "a_value": 2,
                             "edges": [
                                 {
-                                    "a_name": 13,
+                                    "a_name": 6,
                                     "a_value": 1,
                                     "edges": [
                                         {
-                                            "a_name": 11,
-                                            "a_value": 3,
+                                            "a_name": 5,
+                                            "a_value": 1,
                                             "edges": [],
                                             "result": "F"
                                         },
                                         {
-                                            "a_name": 11,
-                                            "a_value": 4,
+                                            "a_name": 5,
+                                            "a_value": 2,
                                             "edges": [],
                                             "result": "S"
                                         }
@@ -153,76 +79,20 @@
                                     "result": ""
                                 },
                                 {
-                                    "a_name": 13,
+                                    "a_name": 6,
                                     "a_value": 2,
                                     "edges": [
                                         {
-                                            "a_name": 11,
+                                            "a_name": 5,
                                             "a_value": 1,
                                             "edges": [],
                                             "result": "F"
                                         },
                                         {
-                                            "a_name": 11,
+                                            "a_name": 5,
                                             "a_value": 2,
                                             "edges": [],
                                             "result": "F"
-                                        },
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 3,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 4,
-                                            "edges": [],
-                                            "result": "F"
-                                        }
-                                    ],
-                                    "result": ""
-                                },
-                                {
-                                    "a_name": 13,
-                                    "a_value": 3,
-                                    "edges": [
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 4,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 6,
-                                            "edges": [],
-                                            "result": "F"
-                                        }
-                                    ],
-                                    "result": ""
-                                },
-                                {
-                                    "a_name": 13,
-                                    "a_value": 4,
-                                    "edges": [],
-                                    "result": "F"
-                                },
-                                {
-                                    "a_name": 13,
-                                    "a_value": 5,
-                                    "edges": [
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "S"
                                         }
                                     ],
                                     "result": ""
@@ -231,148 +101,111 @@
                             "result": ""
                         },
                         {
-                            "a_name": 1,
-                            "a_value": 3,
-                            "edges": [],
-                            "result": "F"
+                            "a_name": 9,
+                            "a_value": 4,
+                            "edges": [
+                                {
+                                    "a_name": 6,
+                                    "a_value": 1,
+                                    "edges": [
+                                        {
+                                            "a_name": 5,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
+                                },
+                                {
+                                    "a_name": 6,
+                                    "a_value": 2,
+                                    "edges": [
+                                        {
+                                            "a_name": 5,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "S"
+                                        }
+                                    ],
+                                    "result": ""
+                                }
+                            ],
+                            "result": ""
                         }
                     ],
                     "result": ""
                 },
                 {
-                    "a_name": 20,
+                    "a_name": 21,
                     "a_value": 2,
                     "edges": [
                         {
-                            "a_name": 13,
+                            "a_name": 9,
+                            "a_value": 1,
+                            "edges": [],
+                            "result": "F"
+                        },
+                        {
+                            "a_name": 9,
+                            "a_value": 2,
+                            "edges": [],
+                            "result": "S"
+                        }
+                    ],
+                    "result": ""
+                },
+                {
+                    "a_name": 21,
+                    "a_value": 3,
+                    "edges": [
+                        {
+                            "a_name": 6,
                             "a_value": 1,
                             "edges": [
                                 {
-                                    "a_name": 11,
-                                    "a_value": 3,
-                                    "edges": [
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "F"
-                                        }
-                                    ],
-                                    "result": ""
+                                    "a_name": 9,
+                                    "a_value": 1,
+                                    "edges": [],
+                                    "result": "S"
                                 },
                                 {
-                                    "a_name": 11,
-                                    "a_value": 4,
-                                    "edges": [
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 2,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 3,
-                                            "edges": [],
-                                            "result": "F"
-                                        }
-                                    ],
-                                    "result": ""
+                                    "a_name": 9,
+                                    "a_value": 2,
+                                    "edges": [],
+                                    "result": "F"
                                 }
                             ],
                             "result": ""
                         },
                         {
-                            "a_name": 13,
+                            "a_name": 6,
                             "a_value": 2,
                             "edges": [
                                 {
-                                    "a_name": 11,
+                                    "a_name": 9,
                                     "a_value": 1,
-                                    "edges": [],
-                                    "result": "F"
+                                    "edges": [
+                                        {
+                                            "a_name": 5,
+                                            "a_value": 2,
+                                            "edges": [],
+                                            "result": "F"
+                                        }
+                                    ],
+                                    "result": ""
                                 },
                                 {
-                                    "a_name": 11,
+                                    "a_name": 9,
                                     "a_value": 2,
                                     "edges": [],
                                     "result": "S"
                                 },
                                 {
-                                    "a_name": 11,
-                                    "a_value": 3,
+                                    "a_name": 9,
+                                    "a_value": 4,
                                     "edges": [],
                                     "result": "F"
-                                }
-                            ],
-                            "result": ""
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 3,
-                            "edges": [
-                                {
-                                    "a_name": 11,
-                                    "a_value": 1,
-                                    "edges": [],
-                                    "result": "S"
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 3,
-                                    "edges": [],
-                                    "result": "F"
-                                }
-                            ],
-                            "result": ""
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 4,
-                            "edges": [
-                                {
-                                    "a_name": 11,
-                                    "a_value": 1,
-                                    "edges": [],
-                                    "result": "S"
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 3,
-                                    "edges": [],
-                                    "result": "F"
-                                }
-                            ],
-                            "result": ""
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 5,
-                            "edges": [
-                                {
-                                    "a_name": 11,
-                                    "a_value": 1,
-                                    "edges": [
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 2,
-                                            "edges": [],
-                                            "result": "F"
-                                        }
-                                    ],
-                                    "result": ""
                                 }
                             ],
                             "result": ""
@@ -384,506 +217,62 @@
             "result": ""
         },
         {
-            "a_name": 28,
+            "a_name": 24,
             "a_value": 2,
             "edges": [
                 {
-                    "a_name": 20,
+                    "a_name": 21,
                     "a_value": 1,
                     "edges": [
                         {
-                            "a_name": 1,
+                            "a_name": 6,
                             "a_value": 1,
                             "edges": [
                                 {
-                                    "a_name": 13,
+                                    "a_name": 9,
                                     "a_value": 1,
-                                    "edges": [],
-                                    "result": "S"
-                                },
-                                {
-                                    "a_name": 13,
-                                    "a_value": 2,
                                     "edges": [
                                         {
-                                            "a_name": 11,
+                                            "a_name": 5,
                                             "a_value": 1,
                                             "edges": [],
                                             "result": "S"
                                         },
                                         {
-                                            "a_name": 11,
-                                            "a_value": 3,
-                                            "edges": [],
-                                            "result": "F"
-                                        }
-                                    ],
-                                    "result": ""
-                                },
-                                {
-                                    "a_name": 13,
-                                    "a_value": 3,
-                                    "edges": [
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 11,
+                                            "a_name": 5,
                                             "a_value": 2,
                                             "edges": [],
                                             "result": "S"
-                                        },
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 3,
-                                            "edges": [],
-                                            "result": "F"
                                         }
                                     ],
                                     "result": ""
                                 },
                                 {
-                                    "a_name": 13,
-                                    "a_value": 4,
+                                    "a_name": 9,
+                                    "a_value": 2,
                                     "edges": [],
                                     "result": "S"
                                 }
                             ],
                             "result": ""
-                        },
-                        {
-                            "a_name": 1,
-                            "a_value": 2,
-                            "edges": [
-                                {
-                                    "a_name": 11,
-                                    "a_value": 1,
-                                    "edges": [
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 2,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 3,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 4,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 5,
-                                            "edges": [],
-                                            "result": "S"
-                                        }
-                                    ],
-                                    "result": ""
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 2,
-                                    "edges": [
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 2,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 5,
-                                            "edges": [],
-                                            "result": "S"
-                                        }
-                                    ],
-                                    "result": ""
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 3,
-                                    "edges": [
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 2,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 3,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 4,
-                                            "edges": [],
-                                            "result": "F"
-                                        }
-                                    ],
-                                    "result": ""
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 4,
-                                    "edges": [
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 3,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 4,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 13,
-                                            "a_value": 5,
-                                            "edges": [],
-                                            "result": "S"
-                                        }
-                                    ],
-                                    "result": ""
-                                }
-                            ],
-                            "result": ""
-                        },
-                        {
-                            "a_name": 1,
-                            "a_value": 3,
-                            "edges": [],
-                            "result": "S"
                         }
                     ],
                     "result": ""
                 },
                 {
-                    "a_name": 20,
-                    "a_value": 2,
-                    "edges": [
-                        {
-                            "a_name": 13,
-                            "a_value": 1,
-                            "edges": [
-                                {
-                                    "a_name": 11,
-                                    "a_value": 1,
-                                    "edges": [
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 2,
-                                            "edges": [],
-                                            "result": "F"
-                                        }
-                                    ],
-                                    "result": ""
-                                }
-                            ],
-                            "result": ""
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 2,
-                            "edges": [
-                                {
-                                    "a_name": 11,
-                                    "a_value": 1,
-                                    "edges": [],
-                                    "result": "F"
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 2,
-                                    "edges": [],
-                                    "result": "F"
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 6,
-                                    "edges": [],
-                                    "result": "S"
-                                }
-                            ],
-                            "result": ""
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 3,
-                            "edges": [
-                                {
-                                    "a_name": 11,
-                                    "a_value": 1,
-                                    "edges": [
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "S"
-                                        }
-                                    ],
-                                    "result": ""
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 2,
-                                    "edges": [],
-                                    "result": "S"
-                                }
-                            ],
-                            "result": ""
-                        }
-                    ],
-                    "result": ""
+                    "a_name": 21,
+                    "a_value": 3,
+                    "edges": [],
+                    "result": "F"
                 }
             ],
             "result": ""
         },
         {
-            "a_name": 28,
+            "a_name": 24,
             "a_value": 3,
-            "edges": [
-                {
-                    "a_name": 20,
-                    "a_value": 1,
-                    "edges": [
-                        {
-                            "a_name": 13,
-                            "a_value": 1,
-                            "edges": [
-                                {
-                                    "a_name": 1,
-                                    "a_value": 1,
-                                    "edges": [
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 4,
-                                            "edges": [],
-                                            "result": "S"
-                                        },
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 5,
-                                            "edges": [],
-                                            "result": "F"
-                                        }
-                                    ],
-                                    "result": ""
-                                },
-                                {
-                                    "a_name": 1,
-                                    "a_value": 2,
-                                    "edges": [
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 11,
-                                            "a_value": 3,
-                                            "edges": [],
-                                            "result": "F"
-                                        }
-                                    ],
-                                    "result": ""
-                                }
-                            ],
-                            "result": ""
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 2,
-                            "edges": [
-                                {
-                                    "a_name": 11,
-                                    "a_value": 1,
-                                    "edges": [],
-                                    "result": "F"
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 2,
-                                    "edges": [],
-                                    "result": "F"
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 4,
-                                    "edges": [],
-                                    "result": "S"
-                                }
-                            ],
-                            "result": ""
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 3,
-                            "edges": [
-                                {
-                                    "a_name": 11,
-                                    "a_value": 1,
-                                    "edges": [],
-                                    "result": "F"
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 2,
-                                    "edges": [],
-                                    "result": "S"
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 3,
-                                    "edges": [],
-                                    "result": "S"
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 5,
-                                    "edges": [],
-                                    "result": "S"
-                                }
-                            ],
-                            "result": ""
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 4,
-                            "edges": [
-                                {
-                                    "a_name": 11,
-                                    "a_value": 1,
-                                    "edges": [],
-                                    "result": "S"
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 2,
-                                    "edges": [
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "F"
-                                        },
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 3,
-                                            "edges": [],
-                                            "result": "S"
-                                        }
-                                    ],
-                                    "result": ""
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 3,
-                                    "edges": [
-                                        {
-                                            "a_name": 1,
-                                            "a_value": 1,
-                                            "edges": [],
-                                            "result": "S"
-                                        }
-                                    ],
-                                    "result": ""
-                                }
-                            ],
-                            "result": ""
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 5,
-                            "edges": [],
-                            "result": "S"
-                        }
-                    ],
-                    "result": ""
-                },
-                {
-                    "a_name": 20,
-                    "a_value": 2,
-                    "edges": [
-                        {
-                            "a_name": 13,
-                            "a_value": 1,
-                            "edges": [
-                                {
-                                    "a_name": 11,
-                                    "a_value": 1,
-                                    "edges": [],
-                                    "result": "S"
-                                },
-                                {
-                                    "a_name": 11,
-                                    "a_value": 3,
-                                    "edges": [],
-                                    "result": "F"
-                                }
-                            ],
-                            "result": ""
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 2,
-                            "edges": [],
-                            "result": "F"
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 3,
-                            "edges": [],
-                            "result": "F"
-                        },
-                        {
-                            "a_name": 13,
-                            "a_value": 5,
-                            "edges": [],
-                            "result": "F"
-                        }
-                    ],
-                    "result": ""
-                }
-            ],
-            "result": ""
+            "edges": [],
+            "result": "S"
         }
     ],
     "result": ""
